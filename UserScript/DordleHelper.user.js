@@ -3,6 +3,8 @@
 // @description  Supply possible guesses for wordle
 // @namespace    http://artiverse.net/
 // @version      0.1
+// @homepageURL	 https://github.com/frumpel/dordle-helper
+// @updateURL	 https://frumpel.github.io/dordle-helper/UserScript/DordleHelper.user.js
 // @author       Rudolf Potucek
 // @match        https://v6p9d9t4.ssl.hwcdn.net/html/6506440/index.html
 // @grant        none
