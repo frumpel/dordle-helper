@@ -75,8 +75,8 @@ function give_help() {
         let box_excludes = '';
         let column_is = [ '', '', '', '', '' ];
         let column_is_not = [ '', '', '', '', '' ];
-        for (let column=1; column<=5; column++) {
-            for (let row=1; row<=7; row++) {
+        for (let row=1; row<=7; row++) {
+            for (let column=1; column<=5; column++) {
                 let boxid = "box" + [box,row,column].join(',');
                 console.log(boxid);
                 let { letter, status } = get_cell_letter_and_status(boxid);
