@@ -2,7 +2,7 @@
 // @name         Dordle Helper
 // @description  Supply possible guesses for wordle
 // @namespace    http://artiverse.net/
-// @version      0.1
+// @version      0.2
 // @homepageURL	 https://github.com/frumpel/dordle-helper
 // @updateURL	 https://frumpel.github.io/dordle-helper/UserScript/DordleHelper.user.js
 // @author       Rudolf Potucek
@@ -75,9 +75,9 @@ function give_help() {
         let box_excludes = '';
         let column_is = [ '', '', '', '', '' ];
         let column_is_not = [ '', '', '', '', '' ];
-        for (let column=1; column<=5; column++) {
-            for (let row=1; row<=7; row++) {
-                let boxid = "box" + [box,row,column].join(',');
+        for (let row=1; row<=7; row++) {
+            for (let column=1; column<=5; column++) {
+                    let boxid = "box" + [box,row,column].join(',');
                 console.log(boxid);
                 let { letter, status } = get_cell_letter_and_status(boxid);
                 if (status == 2) {
