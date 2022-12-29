@@ -2,7 +2,7 @@
 // @name         Dordle Helper
 // @description  Supply possible guesses for wordle
 // @namespace    http://artiverse.net/
-// @version      0.1
+// @version      0.2
 // @homepageURL	 https://github.com/frumpel/dordle-helper
 // @updateURL	 https://frumpel.github.io/dordle-helper/Tampermonkey/DordleHelper.user.js
 // @author       Rudolf Potucek
